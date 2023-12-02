@@ -1,9 +1,12 @@
-function App() {
-  return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
-}
+import { createBrowserRouter } from "react-router-dom";
+import { Layout } from "./components/layout";
+import { Home } from "./pages/home";
 
-export default App
+export const router = createBrowserRouter([
+  {
+    element: <Layout />,
+    children: [
+      { path: "/", element: <Home /> },
+    ]
+  }
+])
