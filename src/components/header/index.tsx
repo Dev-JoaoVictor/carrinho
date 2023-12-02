@@ -8,7 +8,7 @@ export function Header() {
         <Link to="/" className='font-bold text-2xl text-white'>
           Tech Shop
         </Link>
-        <Link to='' className='relative text-white'>
+        <Link to='/cart' className='relative text-white'>
           <FiShoppingCart size={26} />
           <span className='absolute -right-5 -top-3 px-2.5 bg-sky-500 w-6 h-6 flex items-center justify-center rounded-full font-bold'>
             2
