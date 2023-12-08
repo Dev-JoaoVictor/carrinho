@@ -1,0 +1,74 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Airpods Apple, com Estojo de Recarga, Bluetooth",
+      "description": "Airpods Apple, com Estojo de Recarga, Bluetooth, Branco\nO Novo AirPods traz uma experiência nova em usar fones de ouvido sem fio. É só tirá-los do estojo e estão prontos para uso com seu iPhone, Apple Watch, iPad ou Mac. Ele oferece cinco horas de som e três horas para conversar com apenas uma carga. Eles acompanham seu ritmo graças ao estojo que proporciona várias cargas adicionais para mais de 24 horas de uso.",
+      "price": 1200,
+      "cover": "https://i.imgur.com/uXrbyfA.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Notebook Gamer Lenovo Gaming 3i Intel Core i5-11300H",
+      "description": "Lenovo ideapad Gaming 3i\nNovo design com 11ª Geração de Processadores Intel Core i5-11300H e placa de vídeo NVIDIA GeForce GTX 1650 4GB. Ideal para gamers e usuários que também precisam de alta performance. Com tela de 15.6'' Full HD WVA Antirreflexo para melhor definição de imagem e cores. O armanezamento SSD PCIe NVMe é 10x mais rápido* que um HDD 2.5” SATA, você terá mais segurança ao armazenar seus dados. O teclado retroiluminado em LED branco, deixa o computador mais atraente e também favorece a performance para jogos em lugares com pouca iluminação.",
+      "price": 3790.9,
+      "cover": "https://i.imgur.com/bM5IUKe.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Teclado Mecânico Gamer HyperX Alloy",
+      "description": "Teclado HyperX Alloy MKW100, HKBM1-R-EUA/G - 4P5E1AA#ABA\nObtenha uma iluminação radiante e por tecla com efeitos dinâmicos para adicionar um toque de estilo ao seu setup de PC. Estrutura em alumínio durável\nCom uma estrutura de alumínio sólida, o Alloy MKW100 foi projetado para fornecer estabilidade quando os toques em teclas estiverem a todo vapor. O descanso para pulso removível ajuda a reduzir a fadiga de longas sessões de jogos ou de trabalho.",
+      "price": 199.99,
+      "cover": "https://i.imgur.com/ldh1Q8O.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Monitor Gamer Husky Tempest 34",
+      "description": "O Monitor Gamer Husky Gaming Tempest LED 34 UltraWide Curvo traz a experiência de imersão completa para o seus jogos! A tela Curva UltraWide, formato 21:9, e Quad HD (QHD), com taxa de atualização de 144Hz, confere maior campo de visão e amplifica a experiência de imersão durante seus jogos.",
+      "price": 2099.99,
+      "cover": "https://i.imgur.com/sRmbcWW.jpeg"
+    },
+    {
+      "id": 5,
+      "title": "Soundbar LG SNH5, 4.1 Canais, Bluetooth, 600W RMS",
+      "description": "O LG Sound Bar SNH5 uniu-se ao DTS Virtual:X para transformar sua casa em um verdadeiro cinema e deixar a exibição dos seus filmes favoritos muito mais imersiva. O LG Sound Bar SNH5 suporta saída para 4.1 canais para que você possa assistir à TV com um som mais envolvente.",
+      "price": 1099.99,
+      "cover": "https://i.imgur.com/w7SeQsa.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Smartwatch Samsung Galaxy Watch 5, BT, 40mm",
+      "description": "O smartwatch que oferece o mais completo conjunto de funções de monitoramento para o acompanhamento da Saúde e do Bem-Estar de uma maneira precisa e confiável. Possui os recursos essenciais e mais avançados para medir e acompanhar o estado da sua Saúde, funções como monitor de Batimento Cardíaco, Pressão Arterial, Eletrocardiograma, Oxímetro, Detecção de Queda e Chamada de Emergência, programa de Coaching do Sono para monitorar e melhorar a qualidade do seu Sono , além da Bioimpedância para avaliar a composição corporal de maneira rápida e interativa, e verificar a evolução os resultados dos exercícios refletidos no seu corpo. Possui uma série de funções avançadas de treinos com mais de 95 modalidades. ",
+      "price": 1139.0,
+      "cover": "https://i.imgur.com/Ua4bURp.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Xbox Wireless Headset Microsoft Xbox One, Series S X",
+      "description": "Emparelhe diretamente ao seu console com o rádio Xbox Wireless sem a necessidade de dongles, cabos ou uma estação base. Cerque-se de tecnologias de som espacial, incluindo Windows Sonic, Dolby Atmos e DTS Headphone: X. Use o mudo automático e o isolamento de voz para reduzir a interrupção de ruído para um bate-papo cristalino. Ajuste o volume e os níveis de jogo / bate-papo com os botões giratórios dos fones de ouvido.Design flexível e leve com uma faixa de cabeça ajustável.Desfrute de até 15 horas de duração da bateria com a bateria recarregável interna.Conecte-se a dispositivos móveis via Bluetooth para ouvir música ou bate-papo em movimento.Ajuste sua experiência com o aplicativo Acessórios Xbox.",
+      "price": 1049.9,
+      "cover": "https://i.imgur.com/rMI4H7l.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Microfone Gamer HyperX QuadCast Podcast, Antivibração",
+      "description": "O HyperX QuadCast™ é o microfone independente com todos os recursos para o streamer ou podcaster que procura um microfone com som de qualidade. O QuadCast vem com sua própria base 'shock mount' antivibração para ajudar a reduzir os ruídos da vida diária e um filtro integrado para amortecer sons percussivos desagradáveis.",
+      "price": 799.9,
+      "cover": "https://i.imgur.com/1mNGLgu.jpg"
+    },
+    {
+      "id": 9,
+      "title": "C505 HD WEBCAM HD webcam com 720p e microfone de longo alcance",
+      "description": "A C505 é uma webcam com vídeo HD 720p e um microfone de longo alcance que suporta conversas nítidas e naturais a até 3 metros de distância. Além disso, um cabo USB-A extra longo de 2 m oferece opções de montagem versáteis e únicas.",
+      "price": 599.9,
+      "cover": "https://i.imgur.com/iMCOwyO.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Cadeira Ergonômica ThunderX3 XTC Mesh Preta",
+      "description": "A Cadeira Ergonômica ThunderX3 XTC Mesh é um modelo inovador desenvolvido para elevar o conceito de ergonomia e conforto a patamares sem precedentes. Seu design exclusivo apresenta uma tecnologia avançada que permite que o apoio para as costas e lombar se ajustem automaticamente ao corpo do usuário. Além disso, quando reclinada, o encosto e o assento movem-se em sincronia, mantendo a coluna alinhada corretamente e proporcionando uma postura perfeita.",
+      "price": 2949.9,
+      "cover": "https://i.imgur.com/CKbeAUl.jpg"
+    }
+  ]
+}
