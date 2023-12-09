@@ -1,8 +1,10 @@
 import { api } from '../../services/api'
-import { useState, useEffect } from 'react'
 import { BsCartPlus } from 'react-icons/bs'
+import { useState, useEffect, useContext } from 'react'
+import { CartContext } from '../../contexts/CartContext';
 
-interface ProductsProps {
+
+export interface ProductsProps {
   id: number;
   title: string;
   description: string;
@@ -11,6 +13,9 @@ interface ProductsProps {
 }
 
 export function Home() {
+
+  const { addItemCart } = useContext(CartContext);
+
   const [products, setProducts] = useState<ProductsProps[]>([]);
 
   useEffect(() => {
@@ -21,6 +26,10 @@ export function Home() {
 
     getProducts();
   }, [])
+
+  function handleAddCartItem(product: ProductsProps) {
+    addItemCart(product);
+  }
 
   return (
     <div>
@@ -38,7 +47,7 @@ export function Home() {
                   <strong className='text-zinc-700/90 text-lg'>
                     {product.price.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })}
                   </strong>
-                  <button className='bg-slate-600 text-white p-2 rounded-md'>
+                  <button onClick={() => handleAddCartItem(product)} className='bg-slate-600 text-white p-2 rounded-md'>
                     <BsCartPlus size={20} />
                   </button>
                 </div>
