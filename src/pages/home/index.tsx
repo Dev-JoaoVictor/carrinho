@@ -1,8 +1,9 @@
+import toast from 'react-hot-toast';
+import { Link } from 'react-router-dom';
 import { api } from '../../services/api'
 import { BsCartPlus } from 'react-icons/bs'
 import { useState, useEffect, useContext } from 'react'
 import { CartContext } from '../../contexts/CartContext';
-import toast from 'react-hot-toast';
 
 
 export interface ProductsProps {
@@ -41,16 +42,18 @@ export function Home() {
 
   return (
     <div>
-      <main className="w-full max-w-7xl px-4 mx-auto mb-12">
-        <h1 className="font-bold text-2xl my-10 text-center text-zinc-600">Produtos em alta</h1>
+      <main className="w-full max-w-7xl my-10 px-4 mx-auto mb-12">
+        <h1 className="font-bold text-2xl text-center text-zinc-600">Produtos em alta</h1>
         <div className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-5'>
           {
             products.map((product) => (
               <section className="w-full" key={product.id}>
-                <img
-                  className='w-full rounded-lg max-h-70 mb-2'
-                  src={product.cover} alt="imagem do produto" />
-                <p className='font-medium mt-1 mb-2 text-center'>{product.title}</p>
+                <Link to={`/details/${product.id}`}>
+                  <img
+                    className='w-full rounded-lg max-h-70 mb-2'
+                    src={product.cover} alt="imagem do produto" />
+                  <p className='font-medium mt-1 mb-2 text-center'>{product.title}</p>
+                </Link>
                 <div className='flex gap-3 items-center justify-center'>
                   <strong className='text-zinc-700/90 text-lg'>
                     {product.price.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })}
@@ -59,6 +62,7 @@ export function Home() {
                     <BsCartPlus size={20} />
                   </button>
                 </div>
+
               </section>
             ))
           }
